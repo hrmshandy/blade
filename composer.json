@@ -1,0 +1,21 @@
+{
+    "name": "hrmsh/blade",
+    "description": "Stand alone Laravel Blade",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Shandy Hermawan",
+            "email": "hrm.shandy05@gmail.com"
+        }
+    ],
+    "require": {
+        "illuminate/view": "^5.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "Hrmsh\\Blade\\": "src/"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
